@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: #002939;
+  color: #fff;
+  font-family: "gilroy";
+}
+.container{
+  width: 90%;
+  max-width: 700px;
+  margin: 10vw;
+}
+.container h1{
+  font-size: 4vw;
+}
+.container h1 span{
+  border-bottom: 4px solid #019f55;
+  color: #019f55;
+  padding-bottom: 7px;
+}
+.display{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 3vw 0 1vw;
+  border-radius: 10px;
+  padding: 1vw 2vw;
+}
+.display input{
+  border: 0;
+  outline: 0;
+  font-size: 2vw;
+  font-weight: 600;
+
+  width: 100%;
+}
+.display img{
+  width: 40px;
+  cursor: pointer;
+}
+.password-length label{
+  color: #019f55;
+  font-weight: 600;
+}
+.password-length input{
+  width: 60px;
+  padding: 1vw;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1.2vw;
+}
+
+#generateButton {
+  outline: 0;
+  border: 0;
+  width: 20vw;
+  background-color: #019f55;
+  padding: 1.1vw 2vw;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size:16px ;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 1vw;
+}
+#generateButton:hover{
+  background-color: #0f864f;
+}
+#generateButton img{
+  width: 30px;
+}
